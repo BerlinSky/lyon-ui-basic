@@ -1,22 +1,23 @@
 *:before {
-  box-sizing: inherit;
-}
-
-*:after {
-  box-sizing: inherit;        
-}                             
-                              
-html {                        
-  font: 100%/1.45 'Alegreya',sans-serif;
+  box-sizing: inherit;                 
+}                                     
+                                     
+*:after {                           
+  box-sizing: inherit;             
+}                                 
+                                
+html {                         
+  font-family: 'Alegreya',sans-serif;        
+  font-size: 16px;;           
   box-sizing: border-box;     
-  overflow-y: scroll;      
-                         
-  display: block;         
+  overflow-y: scroll;         
+                              
+  display: block;             
   color: -internal-root-color;
 }                             
                               
-body {                     
-  display: block;        
+body {                       
+  display: block;           
   margin: 0;             
 }                     
                      
