@@ -1,0 +1,23 @@
+*:before {
+  box-sizing: inherit;
+}
+
+*:after {
+  box-sizing: inherit;        
+}       
+             
+html {       
+  font: 100%/1.45 'Alegreya',sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;      
+              
+  display: block;
+  color: -internal-root-color;
+}                             
+                              
+body {        
+  display: block;
+  margin: 0;
+              
+  border: 2px solid tomato;
+}                         
