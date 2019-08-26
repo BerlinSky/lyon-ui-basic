@@ -4,27 +4,36 @@
                                      
 *:after {                           
   box-sizing: inherit;             
-}                                 
-                                
-html {                         
+}                             
+       
+* {
+  margin: 0;
+  padding: 0;       
+  box-sizing: border-box;     
+}                            
+                                  
+/* html {                         
   font-family: 'Alegreya',sans-serif;        
-  font-size: 16px;;           
+  font-size: 16px;;               
   box-sizing: border-box;     
   overflow-y: scroll;         
                               
   display: block;             
   color: -internal-root-color;
-}                             
+}                              */
                               
-body {                       
+body {                    
+  font-family: "Lato", sans-serif;
+  font-weight: 400;       
+  font-size: 16px;      
+  line-height: 1.7;                     
   display: block;           
-  margin: 0;             
 }                     
                      
 .siteWrapper {      
   border: 2px solid blue;
   outline: none;   
-  display: flex; 
+  display: flex;   
   flex-direction: column;
   justify-content: space-between;
   align-items: center; 
