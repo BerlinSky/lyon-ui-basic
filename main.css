@@ -41,12 +41,41 @@ body {
                       
 .siteHeader header {    
   background-color: #f2f2f2;
-  padding: 20px; 
-}              
-             
-.siteHeader nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  padding: 20px;            
+}                     
+                     
+.siteHeader nav {         
+  display: flex;     
+  flex-wrap: wrap; 
+  justify-content: space-between;                               
   align-items: center;
-}          
+}                    
+                 
+.imageBox {    
+  display: flex; 
+  justify-content: center;
+  align-items: center;                
+}               
+              
+.imageBox img {      
+  border-style: none;
+  height: 55px;        
+  width: auto;
+  max-width: 100%;
+  margin-left: 0;            
+  margin-right: 0;          
+  margin-top: 0;           
+  padding-bottom: 0;      
+  padding-left: 0;       
+  padding-right: 0;     
+  padding-top: 0;     
+  margin-bottom: 1.45rem;
+}                   
+                   
+.siteHeader nav ul {
+  font-size: 1.25em;
+  display: flex;  
+  order: 1;      
+  margin: 15px 0px 0px 0px;
+  list-style: none;
+}               
