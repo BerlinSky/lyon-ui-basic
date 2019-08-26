@@ -22,7 +22,7 @@ body {
 }                      
                      
 .siteWrapper {       
-  outline: none;   
+  outline: none;     
   display: flex;   
   flex-direction: column;
   justify-content: space-between;
@@ -91,18 +91,14 @@ footer.siteFooter {
   padding-right: 15px;
 }                      
                          
-img {  
+img {                    
   max-width: 100%;    
-  margin-left: 0;            
-  margin-right: 0;          
-  margin-top: 0;           
   padding-bottom: 0;      
   padding-left: 0;       
   padding-right: 0;     
   padding-top: 0;     
-  margin-bottom: 1.45rem;
-}     
-   
+}                
+                
 ul li {           
   padding-left: 0;   
 }                  
