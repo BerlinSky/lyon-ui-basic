@@ -4,20 +4,49 @@
 
 *:after {
   box-sizing: inherit;        
-}       
-             
-html {       
+}                             
+                              
+html {                        
   font: 100%/1.45 'Alegreya',sans-serif;
-  box-sizing: border-box;
+  box-sizing: border-box;     
   overflow-y: scroll;      
-              
-  display: block;
+                         
+  display: block;         
   color: -internal-root-color;
 }                             
                               
-body {        
-  display: block;
-  margin: 0;
-              
-  border: 2px solid tomato;
-}                         
+body {                     
+  display: block;        
+  margin: 0;             
+}                     
+                     
+.siteWrapper {      
+  border: 2px solid blue;
+  outline: none;   
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; 
+  min-height: 100vh;
+}                
+                   
+.siteLayout {
+  flex: 1 1 auto;
+  width: 100%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}                
+                      
+.siteHeader header {    
+  background-color: #f2f2f2;
+  padding: 20px; 
+}              
+             
+.siteHeader nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}          
