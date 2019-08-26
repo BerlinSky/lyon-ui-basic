@@ -81,24 +81,36 @@ footer.siteFooter {
                             
 .siteHeader nav ul {      
   font-size: 1.25em;     
-  display: flex;        
-  order: 1;            
-  margin: 15px 0px 0px 0px;
-  list-style: none;   
-}                     
-                    
+  display: flex;                      
+  order: 1;                          
+  margin: 15px 0px 0px 0px;         
+  list-style: none;                
+}                                  
+                                 
 .siteHeader nav ul li:not(:last-child) {
-  padding-right: 15px;
-}                      
-                         
-img {                    
-  max-width: 100%;    
+  padding-right: 15px;          
+}                              
+                               
+.siteHeader nav ul li a {     
+  text-decoration: none;      
+  color: inherit;             
+  background-color: transparent;       
+}                            
+                             
+a:active, a:hover {          
+  color: hsl(230,55%,58%);   
+  outline-width: 0;          
+  box-shadow: 0 1px 0 0 currentColor;
+}                            
+                             
+img {                        
+  max-width: 100%;        
   padding-bottom: 0;      
   padding-left: 0;       
   padding-right: 0;     
   padding-top: 0;     
-}                
-                
+}                    
+                    
 ul li {           
   padding-left: 0;   
 }                  
