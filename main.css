@@ -176,12 +176,14 @@ button, input, optgroup, select, textarea {
                                
 .heroText {                  
   color: #ffffff;           
-  display: block;     
+  display: block;       
   font-size: 20px     
 }                     
-                     
-.heroText--title {  
+                      
+.heroText--title {   
   font-size: 28px;    
   text-transform: uppercase;
   text-align: center;
-}                   
+  font-weight: 700;  
+  letter-spacing: 2.5px;
+}                    
