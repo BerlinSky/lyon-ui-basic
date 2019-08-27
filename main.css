@@ -154,7 +154,8 @@ button, input, optgroup, select, textarea {
   padding: 20px;                 
 }                                
                                                                               
-.hero {                                                                      
+.hero {              
+  position: relative;                                                                   
   height: 65vh;                                                              
   background-image: linear-gradient(                                 
     /* to right bottom,                                       */     
@@ -164,4 +165,16 @@ button, input, optgroup, select, textarea {
   background-size: cover;                                
   background-position: center;                          
   clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 90%, 50% 100%, 25% 90%, 0 100%);
-}                                                      
+}                                     
+                                             
+.heroTextBox {                            
+  position: absolute;                 
+  top: 45%;                           
+  left: 50%;                          
+  transform: translateX(-50%) translateY(-50%);
+}                                   
+                      
+.heroText {       
+  color: #ffffff;
+  display: block;
+}                
