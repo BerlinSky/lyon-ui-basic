@@ -173,8 +173,15 @@ button, input, optgroup, select, textarea {
   left: 50%;                          
   transform: translateX(-50%) translateY(-50%);
 }                                   
-                      
-.heroText {       
-  color: #ffffff;
-  display: block;
-}                
+                               
+.heroText {                  
+  color: #ffffff;           
+  display: block;     
+  font-size: 20px     
+}                     
+                     
+.heroText--title {  
+  font-size: 28px;    
+  text-transform: uppercase;
+  text-align: center;
+}                   
