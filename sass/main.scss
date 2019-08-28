@@ -30,24 +30,24 @@ body {
   min-height: 100vh;
 }                
                    
-.siteLayout {     
-  flex: 1 1 auto;
-  width: 100%;   
-  display: flex;
-  flex-direction: column;
+.siteLayout {                  
+  flex: 1 1 auto;              
+  width: 100%;              
+  display: flex;            
+  flex-direction: column;   
   justify-content: space-between;
-  align-items: stretch;
-}                
-                      
-header.siteHeader {    
+  align-items: stretch;    
+}                        
+                        
+header.siteHeader {     
   background-color: #f2f2f2;
   padding: 20px;            
 }                      
-                 
-main.siteMain {
-  flex: 1 1 auto;
-  width: 100%;
-  display: flex;
+                       
+main.siteMain {        
+  flex: 1 1 auto;     
+  width: 100%;        
+  display: flex;     
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;   
