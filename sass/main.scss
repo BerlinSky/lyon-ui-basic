@@ -2,8 +2,8 @@
 @import "./base/all-base";
 @import "./layout/all-layout";
 @import "./components/_all-components";
-@import "./pages/all-pages";
-@import "./themes/all-themes";
+@import "./pages/all-pages";    
+@import "./themes/all-themes";  
                                        
                            
 .siteWrapper {              
@@ -11,20 +11,23 @@
   outline: none;                        
   min-height: 100vh;            
 }                                   
-                                   
+.siteWrapper {              
+  outline: none;                        
+}  
+                               
 .siteLayout {                     
   flex: 1 1 auto;               
   width: 100%;               
-                           
+                            
   @include flex-column-space-between();      
   align-items: stretch;     
-}                          
-                          
+}                           
+     
 header.siteHeader {      
   background-color: #f2f2f2;
-  padding: 20px;            
-}                        
-                                         
+  padding: 2.0rem;            
+} 
+
 main.siteMain {                        
   flex: 1 1 auto;        
   width: 100%;           
@@ -74,27 +77,27 @@ footer.siteFooter {
   background-color: transparent;       
 }                            
                              
-a:active, a:hover {          
-  color: hsl(230,55%,58%);   
-  outline-width: 0;          
-  box-shadow: 0 1px 0 0 currentColor;
-}                            
+// a:active, a:hover {          
+//   color: hsl(230,55%,58%);   
+//   outline-width: 0;          
+//   box-shadow: 0 1px 0 0 currentColor;
+// }                            
                              
-img {                        
-  max-width: 100%;           
-  padding-bottom: 0;      
-  padding-left: 0;       
-  padding-right: 0;     
-  padding-top: 0;     
-}                    
-                    
-ul li {           
-  padding-left: 0;   
-}                  
+// img {                        
+//   max-width: 100%;           
+//   padding-bottom: 0;         
+//   padding-left: 0;       
+//   padding-right: 0;     
+//   padding-top: 0;     
+// }                    
+                     
+// ul li {           
+//   padding-left: 0;   
+// }                  
                   
-li {          
-  margin-bottom: calc(1.45rem / 2);
-}                    
+// li {          
+//   margin-bottom: calc(1.45rem / 2);
+// }                    
                      
 .inTouch  {   
   order: 1;       
@@ -108,24 +111,24 @@ li {
                     
 button.inTouch  {
   background: none;
-  outline: none;
-  cursor: pointer;
-}            
-            
+  outline: none;     
+  cursor: pointer;           
+}                                                                           
+                 
 [type=reset], [type=submit], button, html [type=button] {
   -webkit-appearance: button;
-}      
- 
-button, select {                                      
-  text-transform: none;
-}                                                    
-button, input {                                                             
-  overflow: visible;                                                        
-}                                                             
-button, input, optgroup, select, textarea {              
-  font: inherit;                                         
-  margin: 0;                                             
-}                                                     
+}            
+         
+// button, select {                                      
+//   text-transform: none;
+// }                                                    
+// button, input {                                                             
+//   overflow: visible;                                                        
+// }                                                             
+// button, input, optgroup, select, textarea {              
+//   font: inherit;                                         
+//   margin: 0;                                             
+// }                                                     
                                                           
 .heroBox {                                     
   padding: 20px;                 

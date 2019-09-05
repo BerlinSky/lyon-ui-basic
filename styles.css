@@ -8,6 +8,29 @@
 html {
   font-size: 62.5%; }
 
+img {
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0; }
+
+ul li {
+  padding-left: 0; }
+
+li {
+  margin-bottom: calc(1.45rem / 2); }
+
+button, select {
+  text-transform: none; }
+
+button, input {
+  overflow: visible; }
+
+button, input, optgroup, select, textarea {
+  font: inherit;
+  margin: 0; }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -16,6 +39,11 @@ body {
   color: #777777;
   display: block; }
 
+a:active, a:hover {
+  color: #596dcf;
+  outline-width: 0;
+  box-shadow: 0 1px 0 0 currentColor; }
+
 .siteWrapper {
   display: flex;
   flex-direction: column;
@@ -23,6 +51,9 @@ body {
   align-items: center;
   outline: none;
   min-height: 100vh; }
+
+.siteWrapper {
+  outline: none; }
 
 .siteLayout {
   flex: 1 1 auto;
@@ -35,7 +66,7 @@ body {
 
 header.siteHeader {
   background-color: #f2f2f2;
-  padding: 20px; }
+  padding: 2.0rem; }
 
 main.siteMain {
   flex: 1 1 auto;
@@ -84,24 +115,6 @@ footer.siteFooter {
   color: inherit;
   background-color: transparent; }
 
-a:active, a:hover {
-  color: #596dcf;
-  outline-width: 0;
-  box-shadow: 0 1px 0 0 currentColor; }
-
-img {
-  max-width: 100%;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0; }
-
-ul li {
-  padding-left: 0; }
-
-li {
-  margin-bottom: calc(1.45rem / 2); }
-
 .inTouch {
   order: 1;
   font-family: inherit;
@@ -117,16 +130,6 @@ button.inTouch {
 
 [type=reset], [type=submit], button, html [type=button] {
   -webkit-appearance: button; }
-
-button, select {
-  text-transform: none; }
-
-button, input {
-  overflow: visible; }
-
-button, input, optgroup, select, textarea {
-  font: inherit;
-  margin: 0; }
 
 .heroBox {
   padding: 20px; }

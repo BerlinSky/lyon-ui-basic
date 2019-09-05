@@ -1,0 +1,16 @@
+body {                                                
+  font-family: "Lato", sans-serif;                
+  font-weight: 400;                             
+  font-size: 1.6rem;                          
+  line-height: 1.7;                     
+  color: $color-primary;                    
+  display: block;                      
+}                   
+                  
+a:active, a:hover {          
+  color: hsl(230,55%,58%);   
+  outline-width: 0;          
+  box-shadow: 0 1px 0 0 currentColor;
+}  
+  
+  
