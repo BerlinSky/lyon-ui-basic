@@ -31,29 +31,25 @@ main.siteMain {
                          
   @include flex-column-space-between();      
   align-items: stretch;  
-}                    
-                   
+}                        
+                        
 header.siteHeader nav {  
   @include flex-row-wrap-space-between();      
-  // display: flex;     
-  // flex-wrap: wrap; 
-  // justify-content: space-between;                               
-  // align-items: center;
-}                  
-                 
-footer.siteFooter {
+}                     
+                   
+footer.siteFooter {    
   background-color: #555;
-  color: #bbb;  
-  line-height: 1.5;
-  flex: 0 0;   
-}              
+  color: #bbb;        
+  line-height: 1.5; 
+  flex: 0 0;       
+}                
                  
 .imageBox {      
   display: flex; 
   justify-content: center;
   align-items: center;                
 }                
-              
+               
 .imageBox img {      
   border-style: none;
   height: 55px;    
