@@ -129,6 +129,33 @@ button.inTouch {
   font-weight: 700;
   letter-spacing: 2.5px; }
 
+footer.siteFooter {
+  background-color: #555555;
+  color: #bbbbbb;
+  line-height: 1.5;
+  flex: 0 0; }
+
+.legalModule {
+  padding: 1.5rem 3.0rem;
+  background-color: #333333; }
+  .legalModule ul.legalModule__list {
+    margin: 0px 1.25rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0; }
+    .legalModule ul.legalModule__list li {
+      margin: 0.5rem 1.25rem;
+      white-space: nowrap; }
+      .legalModule ul.legalModule__list li a.link {
+        text-decoration: none;
+        color: #bbbbbb; }
+      .legalModule ul.legalModule__list li a:hover {
+        color: #cccccc;
+        text-decoration: none; }
+
 .siteWrapper {
   display: flex;
   flex-direction: column;
@@ -153,30 +180,3 @@ main.siteMain {
   justify-content: space-between;
   align-items: center;
   align-items: stretch; }
-
-footer.siteFooter {
-  background-color: #555;
-  color: #bbb;
-  line-height: 1.5;
-  flex: 0 0; }
-
-.legalModule {
-  padding: 0.9375rem 1.875rem;
-  background-color: #333; }
-  .legalModule ul.legalModule__list {
-    margin: 0px 0.725rem;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    list-style: none;
-    padding-left: 0; }
-    .legalModule ul.legalModule__list li {
-      margin: 0.125rem 0.625rem;
-      white-space: nowrap; }
-      .legalModule ul.legalModule__list li a.link {
-        text-decoration: none;
-        color: #bbb; }
-      .legalModule ul.legalModule__list li a:hover {
-        color: #cccccc;
-        text-decoration: none; }
