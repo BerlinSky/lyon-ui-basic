@@ -2,22 +2,89 @@
 @import "./base/all-base"; 
 @import "./layout/all-layout";
 @import "./components/_all-components";
-@import "./pages/all-pages";    
+@import "./pages/all-pages";      
 @import "./themes/all-themes";  
                                        
-.socialModule {          
+.socialModule {           
   padding: 1.5rem 3.0rem;
                          
-  .socialModule__list {                    
-    display: flex;         
-    justify-content: center;
-    border-top: 1px #777 solid;
-    padding-top: 2.0rem;
-    margin: 0px 0.725rem;
-                         
-    li {                
-      margin: 0.8rem;  
-    }                
+  ul.socialModule__list {                    
+    display: flex;            
+    justify-content: center;          
+    margin: 0px 0.725rem;                        
+    list-style: none;    
+                     
+    li {                 
+      margin: 0.8rem;    
+                        
+      a {               
+        text-decoration: none;
+        background-color: transparent;
+                        
+        i {         
+          color: #eee;
+          font-size: 2.0rem;
+        }  
+      }            
+    }                 
   }                 
 }                   
                     
+@import "./vendors/fontawesome/scss/fontawesome.scss";
+@import "./vendors/fontawesome/scss/solid.scss";
+@import "./vendors/fontawesome/scss/brands.scss";
+                                        
+                                       
+.facebook {                           
+  @extend %fa-icon;                  
+  @extend .fab;                     
+                                   
+  &:before {                      
+    content: fa-content($fa-var-facebook);
+  }                              
+}                  
+                   
+.twitter {  
+  @extend %fa-icon;
+  @extend .fab;
+               
+  &:before {                             
+    content: fa-content($fa-var-twitter);
+  }            
+}          
+           
+.instagram {  
+  @extend %fa-icon;
+  @extend .fab;
+            
+  &:before {                             
+    content: fa-content($fa-var-instagram);
+  }                                   
+}           
+           
+.github {  
+  @extend %fa-icon;
+  @extend .fab;
+            
+  &:before {
+    content: fa-content($fa-var-github);
+  }        
+}          
+            
+.linkedin {  
+  @extend %fa-icon;
+  @extend .fab;
+            
+  &:before {
+    content: fa-content($fa-var-linkedin);
+  }         
+}        
+         
+.youtube {  
+  @extend %fa-icon;
+  @extend .fab;
+            
+  &:before {
+    content: fa-content($fa-var-youtube);
+  }        
+}          

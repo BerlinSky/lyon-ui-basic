@@ -1,19 +1,20 @@
 {
-  "name": "ui-basic",                       
-  "version": "1.0.0",                 
-  "description": "",       
-  "main": "index.js", 
-  "scripts": {   
+  "name": "ui-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
     "start": "npm-run-all --parallel server sass",
     "sass": "node-sass sass/main.scss styles.css -w",
-    "server": "live-server --port=9090"           
-  },                                                 
-  "repository": {                                
-    "type": "git"                               
-  },                                           
-  "author": "PY",                             
-  "license": "ISC",                          
-  "devDependencies": {                      
+    "server": "live-server --port=9090"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "PY",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
     "autoprefixer": "^7.1.4",
     "concat": "^1.0.3",
     "node-sass": "^4.5.3",
