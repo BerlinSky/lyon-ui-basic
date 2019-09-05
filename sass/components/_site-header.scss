@@ -2,19 +2,19 @@ header.siteHeader {
   background-color: $color-primary-light;
   padding: 2.0rem;                       
 }                                 
-                            
+                                   
 header.siteHeader nav {     
   @include flex-row-wrap-space-between();      
 }             
 
 .siteHeader nav ul {      
-  font-size: 1.25em;     
+  font-size: 2.75rem;     
   display: flex;                      
   order: 1;                          
   margin: 15px 0px 0px 0px;         
   list-style: none;                
-}             
-  
+}                         
+                          
 .siteHeader nav ul li:not(:last-child) {
   padding-right: 15px;          
 }                              

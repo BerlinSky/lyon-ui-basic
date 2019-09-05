@@ -62,7 +62,7 @@ header.siteHeader nav {
   align-items: center; }
 
 .siteHeader nav ul {
-  font-size: 1.25em;
+  font-size: 2.75rem;
   display: flex;
   order: 1;
   margin: 15px 0px 0px 0px;
@@ -75,6 +75,30 @@ header.siteHeader nav {
   text-decoration: none;
   color: inherit;
   background-color: transparent; }
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imageBox img {
+  border-style: none;
+  height: 5.5rem;
+  width: auto; }
+
+.inTouch {
+  order: 1;
+  font-family: inherit;
+  font-size: 2.0rem;
+  text-transform: uppercase;
+  padding: 5px 18px;
+  border: 1px solid;
+  border-radius: 5px; }
+
+button.inTouch {
+  background: none;
+  outline: none;
+  cursor: pointer; }
 
 .siteWrapper {
   display: flex;
@@ -107,29 +131,6 @@ footer.siteFooter {
   line-height: 1.5;
   flex: 0 0; }
 
-.imageBox {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.imageBox img {
-  border-style: none;
-  height: 55px;
-  width: auto; }
-
-.inTouch {
-  order: 1;
-  font-family: inherit;
-  font-size: 1.2rem;
-  padding: 5px 18px;
-  border: 1px solid;
-  border-radius: 5px; }
-
-button.inTouch {
-  background: none;
-  outline: none;
-  cursor: pointer; }
-
 .heroBox {
   padding: 20px; }
 
@@ -150,10 +151,10 @@ button.inTouch {
 .heroText {
   color: #ffffff;
   display: block;
-  font-size: 20px; }
+  font-size: 2.0rem; }
 
 .heroText--title {
-  font-size: 28px;
+  font-size: 3.2rem;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
