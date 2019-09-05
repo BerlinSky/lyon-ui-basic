@@ -14,11 +14,11 @@ body {
   display: block; }
 
 .siteWrapper {
-  outline: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  outline: none;
   min-height: 100vh; }
 
 .siteLayout {
@@ -27,6 +27,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   align-items: stretch; }
 
 header.siteHeader {
@@ -39,10 +40,12 @@ main.siteMain {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   align-items: stretch; }
 
 header.siteHeader nav {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; }
