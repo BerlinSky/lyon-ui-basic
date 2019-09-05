@@ -1,7 +1,24 @@
 @import "./abstracts/all-abstracts";
-@import "./base/all-base";
+@import "./base/all-base"; 
 @import "./layout/all-layout";
 @import "./components/_all-components";
 @import "./pages/all-pages";    
 @import "./themes/all-themes";  
                                        
+.socialModule {          
+  padding: 1.5rem 3.0rem;
+                     
+  .socialModule__list {                    
+    display: flex;         
+    justify-content: center;
+    border-top: 1px #777 solid;
+    padding-top: 2.0rem;
+    margin: 0px 0.725rem;
+                         
+    li {                
+      margin: 0.8rem;
+      font-size: 20rem;
+    }                
+  }                 
+}                   
+                    
