@@ -1,0 +1,9 @@
+header.siteHeader {        
+  background-color: $color-primary-light;
+  padding: 2.0rem;                       
+}                             
+                            
+header.siteHeader nav {     
+  @include flex-row-wrap-space-between();      
+}                           
+                           
