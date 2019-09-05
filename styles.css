@@ -159,3 +159,24 @@ footer.siteFooter {
   color: #bbb;
   line-height: 1.5;
   flex: 0 0; }
+
+.legalModule {
+  padding: 0.9375rem 1.875rem;
+  background-color: #333; }
+  .legalModule ul.legalModule__list {
+    margin: 0px 0.725rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0; }
+    .legalModule ul.legalModule__list li {
+      margin: 0.125rem 0.625rem;
+      white-space: nowrap; }
+      .legalModule ul.legalModule__list li a.link {
+        text-decoration: none;
+        color: #bbb; }
+      .legalModule ul.legalModule__list li a:hover {
+        color: #cccccc;
+        text-decoration: none; }
