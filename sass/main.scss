@@ -2,32 +2,13 @@
 @import "./base/all-base";
 @import "./layout/all-layout";
 @import "./components/_all-components";
-@import "./pages/all-pages;";
+@import "./pages/all-pages";
 @import "./themes/all-themes";
                                        
-*:before {                    
-  box-sizing: inherit;                 
-}                                      
-                                     
-*:after {                           
-  box-sizing: inherit;             
-}                             
-                              
-* {                   
-  margin: 0;         
-  padding: 0;        
-  box-sizing: border-box;     
-}                            
+                           
                                   
-body {                      
-  font-family: "Lato", sans-serif;
-  font-weight: 400;       
-  font-size: 16px;       
-  line-height: 1.7;  
-  color: #777777;                    
-  display: block;           
-}                      
-                     
+                          
+                          
 .siteWrapper {       
   outline: none;     
   display: flex;   
