@@ -33,9 +33,14 @@ button, select {
   
 button, input {                                                             
   overflow: visible;                                                        
-} 
+}  
                                                             
 button, input, optgroup, select, textarea {              
   font: inherit;                                         
   margin: 0;                                             
 } 
+
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: button;
+}            
+   

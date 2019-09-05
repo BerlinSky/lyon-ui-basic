@@ -17,7 +17,7 @@ footer.siteFooter {
   display: flex; 
   justify-content: center;
   align-items: center;                
-}                
+}                         
                
 .imageBox img {      
   border-style: none;
@@ -25,24 +25,6 @@ footer.siteFooter {
   width: auto;          
 }                            
                             
-.siteHeader nav ul {      
-  font-size: 1.25em;     
-  display: flex;                      
-  order: 1;                          
-  margin: 15px 0px 0px 0px;         
-  list-style: none;                
-}                                  
-                                 
-.siteHeader nav ul li:not(:last-child) {
-  padding-right: 15px;          
-}                              
-                               
-.siteHeader nav ul li a {     
-  text-decoration: none;      
-  color: inherit;             
-  background-color: transparent;       
-}                            
-                     
 .inTouch  {   
   order: 1;       
                   
@@ -58,11 +40,7 @@ button.inTouch  {
   outline: none;     
   cursor: pointer;           
 }                                                                           
-                 
-[type=reset], [type=submit], button, html [type=button] {
-  -webkit-appearance: button;
-}            
-         
+                       
 .heroBox {                                     
   padding: 20px;                 
 }                                

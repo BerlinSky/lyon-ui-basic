@@ -31,6 +31,9 @@ button, input, optgroup, select, textarea {
   font: inherit;
   margin: 0; }
 
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: button; }
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -57,6 +60,21 @@ header.siteHeader nav {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center; }
+
+.siteHeader nav ul {
+  font-size: 1.25em;
+  display: flex;
+  order: 1;
+  margin: 15px 0px 0px 0px;
+  list-style: none; }
+
+.siteHeader nav ul li:not(:last-child) {
+  padding-right: 15px; }
+
+.siteHeader nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent; }
 
 .siteWrapper {
   display: flex;
@@ -99,21 +117,6 @@ footer.siteFooter {
   height: 55px;
   width: auto; }
 
-.siteHeader nav ul {
-  font-size: 1.25em;
-  display: flex;
-  order: 1;
-  margin: 15px 0px 0px 0px;
-  list-style: none; }
-
-.siteHeader nav ul li:not(:last-child) {
-  padding-right: 15px; }
-
-.siteHeader nav ul li a {
-  text-decoration: none;
-  color: inherit;
-  background-color: transparent; }
-
 .inTouch {
   order: 1;
   font-family: inherit;
@@ -126,9 +129,6 @@ button.inTouch {
   background: none;
   outline: none;
   cursor: pointer; }
-
-[type=reset], [type=submit], button, html [type=button] {
-  -webkit-appearance: button; }
 
 .heroBox {
   padding: 20px; }
