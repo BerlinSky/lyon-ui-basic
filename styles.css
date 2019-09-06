@@ -156,6 +156,22 @@ footer.siteFooter {
         color: #cccccc;
         text-decoration: none; }
 
+.socialModule {
+  padding: 1.5rem 3.0rem; }
+  .socialModule ul.socialModule__list {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0.725rem;
+    list-style: none; }
+    .socialModule ul.socialModule__list li {
+      margin: 0.8rem; }
+      .socialModule ul.socialModule__list li a {
+        text-decoration: none;
+        background-color: transparent; }
+        .socialModule ul.socialModule__list li a i {
+          color: #cccccc;
+          font-size: 2.0rem; }
+
 .siteWrapper {
   display: flex;
   flex-direction: column;
@@ -180,22 +196,6 @@ main.siteMain {
   justify-content: space-between;
   align-items: center;
   align-items: stretch; }
-
-.socialModule {
-  padding: 1.5rem 3.0rem; }
-  .socialModule ul.socialModule__list {
-    display: flex;
-    justify-content: center;
-    margin: 0px 0.725rem;
-    list-style: none; }
-    .socialModule ul.socialModule__list li {
-      margin: 0.8rem; }
-      .socialModule ul.socialModule__list li a {
-        text-decoration: none;
-        background-color: transparent; }
-        .socialModule ul.socialModule__list li a i {
-          color: #eee;
-          font-size: 2.0rem; }
 
 /*!
  * Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com

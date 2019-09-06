@@ -1,0 +1,24 @@
+.socialModule {                   
+  padding: 1.5rem 3.0rem;         
+                                  
+  ul.socialModule__list {                    
+    display: flex;                
+    justify-content: center;          
+    margin: 0px 0.725rem;                        
+    list-style: none;                 
+                                  
+    li {                 
+      margin: 0.8rem;    
+                         
+      a {                
+        text-decoration: none;
+        background-color: transparent;
+                        
+        i {         
+          color: $color-secondary-light;
+          font-size: 2.0rem;
+        }           
+      }            
+    }                 
+  }                 
+}  
