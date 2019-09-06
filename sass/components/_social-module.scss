@@ -13,12 +13,66 @@
       a {                
         text-decoration: none;
         background-color: transparent;
-                        
-        i {         
+                         
+        i {              
           color: $color-secondary-light;
           font-size: 2.0rem;
-        }           
+        }                
       }            
-    }                 
+    } 
+    
+    .facebook {                           
+      @extend %fa-icon;                  
+      @extend .fab;                     
+                                       
+      &:before {                      
+        content: fa-content($fa-var-facebook);
+      }                              
+    }                           
+                                
+    .twitter {    
+      @extend %fa-icon;
+      @extend .fab;
+                   
+      &:before {                             
+        content: fa-content($fa-var-twitter);
+      }            
+    }          
+               
+    .instagram {       
+      @extend %fa-icon;
+      @extend .fab;
+                
+      &:before {                             
+        content: fa-content($fa-var-instagram);
+      }                                     
+    }           
+                 
+    .github {  
+      @extend %fa-icon;
+      @extend .fab;
+                   
+      &:before {
+        content: fa-content($fa-var-github);
+      }         
+    }           
+                
+    .linkedin {        
+      @extend %fa-icon;
+      @extend .fab;
+                
+      &:before {                             
+        content: fa-content($fa-var-linkedin);
+      }         
+    }           
+               
+    .youtube {  
+      @extend %fa-icon;
+      @extend .fab;
+                
+      &:before {
+        content: fa-content($fa-var-youtube);
+      }        
+    }   
   }                 
-}  
+}        

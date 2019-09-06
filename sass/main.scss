@@ -1,66 +1,11 @@
-@import "./abstracts/all-abstracts";
-@import "./base/all-base"; 
-@import "./layout/all-layout";
-@import "./components/_all-components";
-@import "./pages/all-pages";      
-@import "./themes/all-themes";    
-                                       
-                    
 @import "./vendors/fontawesome/scss/fontawesome.scss";
 @import "./vendors/fontawesome/scss/solid.scss";
 @import "./vendors/fontawesome/scss/brands.scss";
-                                        
+                                  
+@import "./abstracts/all-abstracts";
+@import "./base/all-base"; 
+@import "./layout/all-layout";         
+@import "./components/_all-components";
+@import "./pages/all-pages";         
+@import "./themes/all-themes";    
                                        
-.facebook {                           
-  @extend %fa-icon;                  
-  @extend .fab;                     
-                                   
-  &:before {                      
-    content: fa-content($fa-var-facebook);
-  }                              
-}                  
-                   
-.twitter {  
-  @extend %fa-icon;
-  @extend .fab;
-               
-  &:before {                             
-    content: fa-content($fa-var-twitter);
-  }            
-}          
-           
-.instagram {  
-  @extend %fa-icon;
-  @extend .fab;
-            
-  &:before {                             
-    content: fa-content($fa-var-instagram);
-  }                                   
-}           
-           
-.github {  
-  @extend %fa-icon;
-  @extend .fab;
-            
-  &:before {
-    content: fa-content($fa-var-github);
-  }        
-}          
-            
-.linkedin {  
-  @extend %fa-icon;
-  @extend .fab;
-            
-  &:before {
-    content: fa-content($fa-var-linkedin);
-  }         
-}        
-         
-.youtube {  
-  @extend %fa-icon;
-  @extend .fab;
-            
-  &:before {
-    content: fa-content($fa-var-youtube);
-  }        
-}          
