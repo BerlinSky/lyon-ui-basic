@@ -13,4 +13,23 @@ a:active, a:hover {
   box-shadow: 0 1px 0 0 currentColor;
 }  
   
-  
+// Typography:            
+.primaryHeading { 
+  color: $color-white;
+  text-transform: uppercase;
+                                                                                               
+  backface-visibility: hidden;                                                                
+  margin-bottom: 6rem;                                                                  
+}                             
+                                                                      
+.secondaryHeading {                                                             
+  font-size: 3.5rem;                                                           
+  text-transform: uppercase;                                                  
+  font-weight: 700;                                                        
+  display: inline-block;                                                 
+  background-image: linear-gradient(to right, $color-gradient-light, $color-gradient-dark);
+  -webkit-background-clip: text;     
+  color: transparent;                                           
+  letter-spacing: .2rem;                                              
+  transition: all .2s;                                                
+}
