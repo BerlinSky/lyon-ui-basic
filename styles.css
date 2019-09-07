@@ -4650,7 +4650,6 @@ main.siteMain {
   align-items: stretch; }
 
 section.about {
-  border: 2px solid red;
   background-color: #f7f7f7;
   padding: 25rem 0;
   margin-top: -20vh;
@@ -4666,7 +4665,6 @@ section.about {
     align-items: center;
     width: 100%; }
   section.about .showCaseContainer {
-    background-color: tomato;
     flex: 1 1;
     width: 50%;
     display: flex;
@@ -4680,7 +4678,11 @@ section.about {
     section.about .showcase__photo {
       position: absolute;
       width: 70%;
-      height: auto; }
+      height: auto;
+      box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.4);
+      border-radius: 2px;
+      transition: all .2s;
+      outline-offset: 2rem; }
       section.about .showcase__photo--item1 {
         top: 0;
         left: 0;
@@ -4695,6 +4697,13 @@ section.about {
         left: 50%;
         transform: translateX(-50%);
         z-index: 300; }
+      section.about .showcase__photo:hover {
+        outline: 1.5rem solid #777777;
+        transform: scale(1.05);
+        box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+        z-index: 500; }
+    section.about .showcase:hover .showcase__photo:not(:hover) {
+      transform: scale(0.9); }
   section.about .intro {
     background-color: lightgreen;
     flex: 1 1;
