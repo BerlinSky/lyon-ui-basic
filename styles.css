@@ -4684,18 +4684,16 @@ section.about {
       transition: all .2s;
       outline-offset: 2rem; }
       section.about .showcase__photo--item1 {
-        top: 0;
+        top: 60px;
         left: 0;
         z-index: 100; }
       section.about .showcase__photo--item2 {
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 0px;
+        left: 120px;
         z-index: 200; }
       section.about .showcase__photo--item3 {
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        top: 120px;
+        left: 60px;
         z-index: 300; }
       section.about .showcase__photo:hover {
         outline: 1.5rem solid #777777;

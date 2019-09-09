@@ -41,27 +41,27 @@ section.about {
       height: auto;        
       box-shadow: 0 1.5rem 3rem rgba($color-black, .4);
       border-radius: 2px;  
-      transition: all .2s;
+      transition: all .2s; 
       outline-offset: 2rem;   
-                        
+                                 
       &--item1 {                    
-        top: 0;                   
+        top: 60px;                   
         left: 0;                 
         z-index: 100;           
       }                        
                               
       &--item2 {              
-        right: 0;            
-        top: 50%;            
-        transform: translateY(-50%);
+        top: 0px;             
+        left: 120px;              
+        // transform: translateY(-50%);
                           
-        z-index: 200;    
-      }                 
+        z-index: 200;     
+      }                  
                                                      
       &--item3 {                                 
-        bottom: 0;                                    
-        left: 50%;                               
-        transform: translateX(-50%);            
+        top: 120px;                                    
+        left: 60px;                               
+        // transform: translateX(-50%);            
         z-index: 300;                          
       }                                      
                                            
@@ -78,8 +78,8 @@ section.about {
       transform: scale(.90);      
     }                            
   }                          
-                         
-                         
+                            
+                            
   .intro {                        
     background-color: lightgreen;                               
     flex: 1 1;           
